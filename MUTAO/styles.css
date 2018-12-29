@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Poppins|Raleway:900');
 
 * { 
     margin:0; 
@@ -10,7 +11,7 @@ body {
     font-weight: 300;
     margin: 0;
     background: #efefef;
-    font-family: futura, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #efefef;
 }
 
@@ -65,9 +66,9 @@ body {
 
 .search-icon {
     position: absolute;
-    top: 8px;
+    top: 9px;
     left: 0;
-    padding: 0 10px ;
+    padding: 0 11px ;
     opacity: .5;
 }
 
@@ -413,6 +414,7 @@ body {
 	color:#b098ff;
 	border: 1px;
 	border-radius: 10px;
+	padding: 5px;
 }
 
 .ads1 p{
@@ -430,6 +432,7 @@ body {
 	color:white;
 	border: 1px;
 	border-radius: 10px;
+	padding: 5px;
 }
 
 .promotions .ads2:hover{

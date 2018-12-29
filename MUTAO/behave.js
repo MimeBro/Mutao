@@ -71,8 +71,11 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
-function clickSort (){
-document.getElementById("p2").style.borderBottomRadius = 1;
-}
+//Product view script
+var clickedMe;
+clickedMe = document.createElement("div");
+clickedMe.setAttribute("class", "bluething");
+clickedMe.innerHTML= "owo";
+
 
 
